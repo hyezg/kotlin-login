@@ -12,23 +12,27 @@ class SignlnActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
-
-
-
-        val  buttonLogin = findViewById<Button>(R.id.btnLogin)
-        buttonLogin.setOnClickListener {
+        //로그인 버튼 눌렀을 때
+        val  btnLogin = findViewById<Button>(R.id.btnLogin)
+        btnLogin.setOnClickListener {
             val editId = findViewById<EditText>(R.id.editId)
             val editPass = findViewById<EditText>(R.id.editPass)
             val strId = editId.text.toString()
             val intent = Intent(this,HomeActivity::class.java)
 
-            if (editId == null || editPass == null) {
+            if (editId == null  || editPass == null) {
                 Toast.makeText(this, "아이디/비밀번호를 확인해주세요", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
-                intent.putExtra("dataId", strId)
+                intent.putExtra("idFromSignInActivity", strId)
                 startActivity(intent)
             }
+        }
+        //회원가입 버튼 눌렀을 때
+        val btnsignUp = findViewById<Button>(R.id.btnSign)
+        btnsignUp.setOnClickListener {
+            val intent = Intent(this,SignUpActivity::class.java)
+            startActivity(intent)
         }
 
     }
