@@ -15,11 +15,12 @@ class HomeActivity : AppCompatActivity() {
         val editIdView = findViewById<EditText>(R.id.editId)
         editIdView.setText(strId)
 
-        val finishbtn = findViewById<Button>(R.id.btnFinish)
-            finishbtn.setOnClickListener {
-                val intent = Intent(this,SignlnActivity::class.java)
-                startActivity(intent)
-                finish()
-            }
+
+        val finishBtn = findViewById<Button>(R.id.btnFinish)
+        finishBtn.setOnClickListener {
+            val intent = Intent(this,SignlnActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
