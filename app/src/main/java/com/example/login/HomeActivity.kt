@@ -18,7 +18,7 @@ class HomeActivity : AppCompatActivity() {
 
         val finishBtn = findViewById<Button>(R.id.btnFinish)
         finishBtn.setOnClickListener {
-            val intent = Intent(this,SignlnActivity::class.java)
+            val intent = Intent(this, SignlnActivity::class.java)
             startActivity(intent)
             finish()
         }

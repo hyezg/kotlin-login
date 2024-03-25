@@ -7,6 +7,7 @@
     tools:context=".HomeActivity">
 
     <ImageView
+        android:contentDescription="로고"
         android:id="@+id/imageView1"
         android:layout_width="124dp"
         android:layout_height="117dp"
@@ -20,87 +21,84 @@
         android:id="@+id/textName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이름"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView1"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
-        />
+        android:text="이름"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView1" />
 
     <EditText
         android:id="@+id/editName"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:hint="이름을 입력하세요."
         android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textName"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="7dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textName" />
 
     <TextView
         android:id="@+id/textId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editName"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        />
+        android:text="아이디"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editName" />
+
     <EditText
         android:id="@+id/editId"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:hint="아이디를 입력하세요."
         android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textId"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="7dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textId" />
 
     <TextView
         android:id="@+id/textPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비밀번호"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editId"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        />
+        android:text="비밀번호"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editId" />
 
     <EditText
         android:id="@+id/editPass"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:hint="비밀번호를 입력하세요."
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textPass"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="7dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textPass" />
 
     <Button
         android:id="@+id/btnSign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입"
-        android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editPass"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:onClick="onSignInActivity"
-        />
+        android:text="회원가입"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editPass" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

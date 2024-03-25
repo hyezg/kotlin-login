@@ -13,12 +13,12 @@ class SignlnActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_in)
 
         //로그인 버튼 눌렀을 때
-        val  btnLogin = findViewById<Button>(R.id.btnLogin)
+        val btnLogin = findViewById<Button>(R.id.btnLogin)
         btnLogin.setOnClickListener {
             val editId = findViewById<EditText>(R.id.editId)
             val editPass = findViewById<EditText>(R.id.editPass)
             val strId = editId.text.toString()
-            val intent = Intent(this,HomeActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
 
             if (strId.isEmpty() || editPass.text.isEmpty()) {
                 Toast.makeText(this, "아이디/비밀번호를 확인해주세요", Toast.LENGTH_SHORT).show()
@@ -31,7 +31,7 @@ class SignlnActivity : AppCompatActivity() {
         //회원가입 버튼 눌렀을 때
         val btnsignUp = findViewById<Button>(R.id.btnSign)
         btnsignUp.setOnClickListener {
-            val intent = Intent(this,SignUpActivity::class.java)
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
 
