@@ -16,8 +16,8 @@ class SignUpActivity : AppCompatActivity() {
 
         btnfinish.setOnClickListener {
             val editName = findViewById<EditText>(R.id.edit_Name_signUp)
-            val editId = findViewById<EditText>(R.id.edit_Id_signIn)
-            val editPass = findViewById<EditText>(R.id.edit_Passwd_signIn)
+            val editId = findViewById<EditText>(R.id.edit_Id_signUp)
+            val editPass = findViewById<EditText>(R.id.edit_Passwd_signUp)
             if (editName.text.toString().isEmpty()
                 || editId.text.toString().isEmpty()
                 || editPass.text.toString().isEmpty()
