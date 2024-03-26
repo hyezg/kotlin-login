@@ -2,7 +2,7 @@
 ### 과제 : Android 앱개발 입문 개인과제 (24.03.25~24.03.28)<br>
 
 ### [필수 구현 사항]
-## Lv1. 로그인 페이지 만들기 : SignInActivity
+#### Lv1. 로그인 페이지 만들기 : SignInActivity
 
 <img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/0c6a4555-4bf6-47c8-96a1-635684c471a4/Screenshot_20230727_004902.png?id=0c6a684a-3e11-4d0f-a10f-dd3d8014fc0b&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=B7FN5Fk6rGvScMgKRFvIbQf2outzO3b0Jyuwtd-6NdA&downloadName=Screenshot_20230727_004902.png" width="20%">
 
@@ -18,7 +18,7 @@
 - [x] 회원가입 버튼을 누르면 SignUpActivity가 실행되도록 구현합니다.
 
 
-## Lv2. 회원가입 페이지 만들기 : SignUpActivity
+#### Lv2. 회원가입 페이지 만들기 : SignUpActivity
 
 <img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/84860e3e-ec4a-4845-a036-d526dbe61107/Untitled.png?id=408b1391-35a6-4fb4-a5f2-3d13ff97e576&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=Bh3X-BA3hXixPKl3d68mONGQAhsBBl7C7D8y7xLdTAE&downloadName=Untitled.png" width="20%">
 
@@ -30,7 +30,7 @@
 - [x] 회원가입 버튼이 눌리면 SignInActivity로 이동하도록 구현합니다. (finish 활용)
 
 
-## Lv3. 자기소개 페이지 만들기 : HomeActivity
+#### Lv3. 자기소개 페이지 만들기 : HomeActivity
 
 <img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/719af862-e1c9-443d-a737-776257a89aa9/Screenshot_20230727_004821.png?id=4602feec-57db-419e-a565-4afc8a0e00d0&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=lYS5KADDcstx-YBg9HQbXxKJ8BjtOctc7-lPJqEPOLc&downloadName=Screenshot_20230727_004821.png" width="20%">
 
@@ -47,9 +47,9 @@
 
 ---
 ### [선택 구현 사항]
-## 1. 화면 이동 후 자동 입력 구현 (hint:registerForActivityResult)
+#### 1. 화면 이동 후 자동 입력 구현 (hint:registerForActivityResult)
 
 
-## 2. 자기 소개 랜덤 사진
+#### 2. 자기 소개 랜덤 사진
 
 
