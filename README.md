@@ -1,6 +1,9 @@
 # kotlin-login
 ## [Android-Kotlin] 로그인과 홈화면 페이지 만들기
 #### Lv1. 로그인 페이지 만들기 : SignInActivity
+
+<img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/0c6a4555-4bf6-47c8-96a1-635684c471a4/Screenshot_20230727_004902.png?id=0c6a684a-3e11-4d0f-a10f-dd3d8014fc0b&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=B7FN5Fk6rGvScMgKRFvIbQf2outzO3b0Jyuwtd-6NdA&downloadName=Screenshot_20230727_004902.png" width="20%">
+
 - [ ]  새 프로젝트를 만들고 MainActivity의 이름을 SignInActivity로 바꿔주세요.
 - [ ]  로고 이미지는 원하는 이미지로 넣어주세요.
 - [ ]  아이디, 비밀번호를 입력 받는 EditText를 넣어주세요.(미리보기 글씨(플레이스 홀더) 포함)
@@ -12,8 +15,12 @@
 - [ ]  아이디/비밀번호 중 하나라도 비어 있다면
 - [ ] “아이디/비밀번호를 확인해주세요” 라는 토스트 메세지가 출력되도록 구현합니다.
 - [ ] 회원가입 버튼을 누르면 SignUpActivity가 실행되도록 구현합니다.
-- [ ] 
+
+
 #### Lv2. 회원가입 페이지 만들기 : SignUpActivity
+
+<img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/84860e3e-ec4a-4845-a036-d526dbe61107/Untitled.png?id=408b1391-35a6-4fb4-a5f2-3d13ff97e576&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=Bh3X-BA3hXixPKl3d68mONGQAhsBBl7C7D8y7xLdTAE&downloadName=Untitled.png" width="20%">
+
 - [ ]  SignpActivity를 생성해 주세요.
 - [ ]  타이틀 이미지는 원하는 이미지로 넣어주세요.
 - [ ]  이름, 아이디, 비밀번호 모두 입력 되었을 때만 회원가입 버튼이 눌리도록 구현합니다.
@@ -21,8 +28,12 @@
 토스트 메세지를 출력하도록 구현합니다.
 - [ ]  비밀번호 EditText는 입력 내용이 가려져야 합니다.(●●● 처리)
 - [ ]  회원가입 버튼이 눌리면 SignInActivity로 이동하도록 구현합니다. (finish 활용)
-- [ ]  
+
+
 #### Lv3. 자기소개 페이지 만들기 : HomeActivity
+
+<img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/719af862-e1c9-443d-a737-776257a89aa9/Screenshot_20230727_004821.png?id=4602feec-57db-419e-a565-4afc8a0e00d0&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=lYS5KADDcstx-YBg9HQbXxKJ8BjtOctc7-lPJqEPOLc&downloadName=Screenshot_20230727_004821.png" width="20%">
+
 - [ ]  HomeActivity를 생성해 주세요.
 - [ ]  SignInActivity에서 받은 extra data(아이디)를 화면에 표시합니다.
 - [ ]  ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인 해주세요.
