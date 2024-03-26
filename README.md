@@ -1,5 +1,6 @@
 ## kotlin-login : Android 앱개발 입문 개인과제
 
+### [필수 구현 사항]
 ### Lv1. 로그인 페이지 만들기 : SignInActivity
 
 <img src="https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/0c6a4555-4bf6-47c8-96a1-635684c471a4/Screenshot_20230727_004902.png?id=0c6a684a-3e11-4d0f-a10f-dd3d8014fc0b&table=block&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1711526400000&signature=B7FN5Fk6rGvScMgKRFvIbQf2outzO3b0Jyuwtd-6NdA&downloadName=Screenshot_20230727_004902.png" width="20%">
@@ -37,3 +38,17 @@
 - [x] ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인 해주세요.
     - [x] 이름, 나이, MBTI 등 자기소개등이 들어가는 위젯을 자유롭게 디자인해주세요.
 - [x] 종료 버튼이 눌리면 SignInActivity로 이동하도록 구현합니다. (finish 활용)
+---
+### [필수 구현 완성]
+<img src="" width="20%">
+<img src="" width="20%">
+<img src="" width="20%">
+
+---
+### [선택 구현 사항]
+### 1. 화면 이동 후 자동 입력 구현 (hint:registerForActivityResult)
+
+
+### 2. 자기 소개 랜덤 사진
+
+
