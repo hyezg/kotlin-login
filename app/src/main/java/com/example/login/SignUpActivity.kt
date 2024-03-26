@@ -12,12 +12,12 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        val btnfinish = findViewById<Button>(R.id.btnSign)
+        val btnfinish = findViewById<Button>(R.id.btn_SignUp)
 
         btnfinish.setOnClickListener {
-            val editName = findViewById<EditText>(R.id.editName)
-            val editId = findViewById<EditText>(R.id.editId)
-            val editPass = findViewById<EditText>(R.id.editPass)
+            val editName = findViewById<EditText>(R.id.edit_Name_signUp)
+            val editId = findViewById<EditText>(R.id.edit_Id_signIn)
+            val editPass = findViewById<EditText>(R.id.edit_Passwd_signIn)
             if (editName.text.toString().isEmpty()
                 || editId.text.toString().isEmpty()
                 || editPass.text.toString().isEmpty()

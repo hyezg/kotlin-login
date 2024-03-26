@@ -12,11 +12,11 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val strId = intent.getStringExtra("idFromSignInActivity")
-        val editIdView = findViewById<EditText>(R.id.editId)
+        val editIdView = findViewById<EditText>(R.id.edit_Id_signIn)
         editIdView.setText(strId)
 
 
-        val finishBtn = findViewById<Button>(R.id.btnFinish)
+        val finishBtn = findViewById<Button>(R.id.btn_Finish)
         finishBtn.setOnClickListener {
             val intent = Intent(this, SignlnActivity::class.java)
             startActivity(intent)
