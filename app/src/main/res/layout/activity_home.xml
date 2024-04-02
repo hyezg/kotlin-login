@@ -55,11 +55,14 @@
 
     <TextView
         android:id="@+id/text_Name"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
-        android:text="이름 : 스파르타 코딩이"
+        android:text="@string/home_name"
         android:textSize="17sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_logo"
@@ -67,27 +70,33 @@
 
     <TextView
         android:id="@+id/text_Age"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="나이 : 23 "
+        android:text="@string/home_age"
         android:textSize="17sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="@id/text_Name"
         app:layout_constraintStart_toStartOf="@id/text_Name"
         app:layout_constraintTop_toBottomOf="@id/text_Name" />
 
     <TextView
         android:id="@+id/text_Mbti"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="MBTI : ISFJ"
+        android:text="@string/home_mbti"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="@id/text_Name"
         app:layout_constraintStart_toStartOf="@id/text_Name"
         app:layout_constraintTop_toBottomOf="@id/text_Age" />
 
-    <Button
+    <!--<Button
         android:id="@+id/btn_Finish"
         android:layout_width="362dp"
         android:layout_height="58dp"
@@ -99,6 +108,34 @@
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_Mbti" />
+        app:layout_constraintTop_toBottomOf="@id/text_Mbti" />-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btn_finish"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="70dp"
+        >
+
+        <ImageView
+            android:contentDescription="종료 버튼입니다."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_finish"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="종료"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

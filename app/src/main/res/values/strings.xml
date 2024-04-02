@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="edit_id">아이디를 입력하세요.</string>
+    <string name="edit_pd">비밀번호를 입력하세요.</string>
+    <string name="edit_name">이름을 입력하세요.</string>
+    <string name="home_name">이름 : 스파르타 코딩이</string>
+    <string name="home_age">나이 : 23</string>
+    <string name="home_mbti">MBTI : ISFJ</string>
+    <string name="text_id">아이디</string>
+    <string name="text_passwd">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="signin">회원가입</string>
+
 </resources>
