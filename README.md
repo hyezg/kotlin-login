@@ -41,9 +41,10 @@
 - [x] 종료 버튼이 눌리면 SignInActivity로 이동하도록 구현합니다. (finish 활용)
 ---
 ### [필수 구현 완성]
-<img src="" width="20%">
-<img src="" width="20%">
-<img src="" width="20%">
+SingIn - SingUp - Home <br>
+<img src="https://github.com/hyezg/kotlin-login/assets/112006114/22961c87-0970-4066-9936-dc07d1d03efe" width="20%">
+<img src="https://github.com/hyezg/kotlin-login/assets/112006114/437c5d38-c507-4b8f-8f6a-462955dcac0b" width="20%">
+<img src="https://github.com/hyezg/kotlin-login/assets/112006114/3815eba7-fe42-44a2-99be-21e0dc127603" width="20%">
 
 ---
 ### [선택 구현 사항]
@@ -52,4 +53,12 @@
 
 #### 2. 자기 소개 랜덤 사진
 
+---
 
+#### 해설영상 본 후 리팩토링 할 것
+- [ ] 하드코딩한거 string에 넣어서 id꺼내서 쓰기
+- [ ] 버튼 누르면 색 바뀌도록
+- [ ] 버튼에 체인으로 이모지랑 텍스트 넣기
+- [ ] 버튼의 이모지 누르면 이모지 바뀌기
+- [ ] 선택구현2 - when사용해서 간단하게하기
+- [ ] 선택구현1 따라서 해보기
