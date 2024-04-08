@@ -2,7 +2,7 @@
 ### 과제 : Android 앱개발 입문 개인과제 (24.03.25~24.03.28)<br>
 
 ## 목차
-[Lv2. 회원가입 페이지 만들기](#lv2-회원가입 페이지 만들기-:-signupactivity)
+[Lv2. 회원가입 페이지 만들기 : SignUnActivity](#lv2-회원가입 페이지 만들기-:-signupactivity)
 
   
 ### [필수 구현 사항]
